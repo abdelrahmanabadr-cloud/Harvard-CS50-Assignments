@@ -3,7 +3,7 @@
 
 int main(void){
    int height= get_int("Enter the height please: \n"); 
-    while(height<0){
+    while(height<0){ //to make sure that the input must be positive
         height= get_int("Enter the height please: \n");  
     }
 
@@ -21,21 +21,3 @@ int main(void){
 
     return 0;
 }
-
-// ## Problem 5: Loops - Pattern 2 (20 points)
-
-// **Task:** Write a program that prints a right-aligned triangle.
-
-// **Example:**
-// ```
-// Height: 4
-//    #
-//   ##
-//  ###
-// ####
-// ```
-// **Hints:**
-// - Think about spaces before the # symbols
-// - Row 1: (height - 1) spaces, then 1 #
-// - Row 2: (height - 2) spaces, then 2 #s
-// - And so on...
