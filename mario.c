@@ -3,7 +3,7 @@
 
 int main(void){
    int height= get_int("Enter the height please: \n"); 
-    while(height<0){ //to make sure that the input must be positive
+    while(height<0){                                        //to make sure that the input must be positive
         height= get_int("Enter the height please: \n");  
     }
 
@@ -21,3 +21,4 @@ int main(void){
 
     return 0;
 }
+
